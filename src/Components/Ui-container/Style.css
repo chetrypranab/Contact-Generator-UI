@@ -1,0 +1,49 @@
+.mainContainer {
+
+    transform: scale(0.99,0.9);
+    height: 69px;
+    border-radius: 7px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    width: 183px;
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(250, 249, 250)
+}
+
+.imageContainer {
+    
+    height: 49px;
+    width: 35px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.imageContainer img {
+    border-radius: 50%;
+}
+
+.detailsContainer {
+    
+    width: 105px;
+    display: flex;
+    flex-direction: column;
+}
+    
+.name {
+
+    font-size: x-small;
+    font-weight: bold;
+    position: absolute;
+    left: 41px;
+    width: 132px;
+}
+    
+.email {
+    
+    margin-left: 6px;
+    margin-top: 26px;
+    
+    font-size: xx-small;
+    height: 32px;
+}

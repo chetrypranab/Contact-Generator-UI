@@ -1,0 +1,69 @@
+.supermainContainer {
+    
+    display: flex;
+    flex-direction: row;
+}
+    
+.inputContainer {
+    
+    padding: 10px;
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+    margin-top:150px;
+}
+    
+.uiarea {
+    height: 446px;
+    width: 217px;
+    padding: 5px;
+    background-image: url("/public/phone.jpg");
+    background-repeat: no-repeat;
+    
+    background-size:222px;
+    
+    display:flex;
+    flex-direction: column;
+   
+}
+   
+.contactText {
+    position: absolute;
+    left: 36px;
+    
+    font-weight: bold;
+    font-family: Calibri;
+}
+   
+.textValue {
+    
+    padding: 5px 5px;
+    width: 150px;
+}
+
+.submitButton {
+    position: absolute;
+    left: 38px;
+    top: 245px;
+    transition-duration: 0.5s;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.submitButton:hover {
+    background-color: #4CAF50; 
+    color: white;
+}
+
+.cardUi {
+    display: flex;
+    flex-direction: column;
+    height: 367px;
+    border: 2px;
+    overflow-y: scroll;
+    margin-top: 26px;
+    margin-left: 10px;
+    margin-right: 17px;
+    padding: 4px;
+    background-color:rgb(247, 243, 243) 
+}
